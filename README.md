@@ -27,6 +27,9 @@ O aplicativo deve listar obrigatoriamente as seguintes cidades e seus respectivo
     * [OpenWeatherMap - Current Weather](https://www.openweathermap.org/current)
     * [WeatherAPI](https://www.weatherapi.com)
 
+* **Layout (Figma):**
+    * [Link do Layout](https://www.figma.com/design/HNu9zrHdknRvoQyVPvk08g/Sem-t%C3%ADtulo?node-id=0-1&t=XxZtZTWhxKPbfuKY-1)
+
 * **Horários de Referência:** Para exibição de temperaturas específicas do dia, use os seguintes horários (conforme o fuso horário da cidade):
     * **Dawn (Amanhecer):** $03:00$
     * **Morning (Manhã):** $09:00$
@@ -55,7 +58,7 @@ O aplicativo deve listar obrigatoriamente as seguintes cidades e seus respectivo
     4.  **Angular**
 
 #### 4. Design e Responsividade
-* **Fidelidade ao Layout:** A implementação deve seguir rigorosamente o design fornecido no [Link do layout no Figma].
+* **Fidelidade ao Layout:** A implementação deve seguir rigorosamente o design fornecido no link do Figma.
 * **Responsividade:** O layout deve se adaptar corretamente a **3 breakpoints** principais:
     * **Smartphone**
     * **Tablet**
@@ -77,3 +80,5 @@ O aplicativo deve listar obrigatoriamente as seguintes cidades e seus respectivo
 Após finalizar o projeto e publicá-lo, responda ao nosso contato enviando o **link do repositório (fork)** e o **link da aplicação hospedada**.
 
 **Boa sorte!**
+
+---
