@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 150px 464px;
+    gap: 10px;
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #0F0F0F;
+}
+
+.conteudos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 512px;
+    height: 726px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.conteudos h1 {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #f9f9f9;
+}
+
+.conteudos h2 {
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #f9f9f9;
+}
+
+.conteudos img {
+    width: 176px;
+    height: 176px;
+    background-color: #f9f9f9;
+}
+
+.cidades {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 364px;
+    height: 80px;
+}
+
+.cidades-top, .cidades-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    width: 364px;
+    height: 24px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.cidades a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
