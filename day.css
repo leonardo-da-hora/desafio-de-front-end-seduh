@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 150px 464px;
+    width: 1440px;
+    height: 1024px;
+    background: #2CAEFF;
+}
+
+.conteudos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 512px;
+  height: 725px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.cidade-tempo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 512px;
+  height: 92px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.cidade-tempo h1 {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #F9F9F9;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.cidade-tempo h2 {
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 120%;
+  text-align: center;
+  color: #F9F9F9;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.temperatura {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 192px;
+  height: 138px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.temp-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 0px 8px;
+  gap: 8px;
+  width: 49px;
+  height: 138px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.temp-numero {
+  width: 135px;
+  height: 138px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 128px;
+  line-height: 120%;
+  text-align: right;
+  color: #F9F9F9;
+  order: 0;
+  flex-grow: 0;
+}
+
+.temp-celsius {
+  font-weight: 200;
+  font-size: 42px;
+  line-height: 120%;
+  text-align: right;
+  color: #F9F9F9;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.temp-graus {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  margin: 0 auto;
+  width: 49px;
+  height: 38px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.svg-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 16px;
+  height: 36px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.previsoes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 24px;
+  height: 38px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #F9F9F9;
+}
+
+.icon-sol {
+  width: 176px;
+  height: 176px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.temperatura-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+  width: 512px;
+  height: 248px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.info-do-dia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 48px;
+  width: 512px;
+  height: 128px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.info-clima-dia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 92px;
+  min-width: 92px;
+  height: 128px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.info-do-clima {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 480px;
+  height: 56px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.clima-info-dia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 110px;
+  min-width: 92px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.barra {
+width: 32px;
+height: 0px;
+border: 1.5px solid #DFE4EA;
+transform: rotate(90deg);
+flex: none;
+flex-grow: 0;
+}
+
+.clima-info-dia p {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #F9F9F9;
+  flex: none;
+  flex-grow: 0;
+}
